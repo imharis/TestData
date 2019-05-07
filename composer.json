@@ -1,0 +1,21 @@
+{
+    "name": "imharis/testdata",
+    "description": "Its a short description of my testdata",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imharis",
+            "email": "haris.codingpixcel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "TestData\\": "src/"
+        }
+    },
+    "require": {
+       "php": ">=7.3"
+   }
+}
